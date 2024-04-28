@@ -32,7 +32,7 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-export function CardWithForm() {
+export default function CardWithForm() {
   return (
 
 
@@ -118,4 +118,3 @@ export function CardWithForm() {
   )
 }
 
-export default  CardWithForm; 
