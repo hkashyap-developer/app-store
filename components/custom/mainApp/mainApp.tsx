@@ -1,9 +1,21 @@
-'use client'
-import React from 'react'
+
+ 
+import React from "react"
+
+import { Button } from "@/components/ui/button"
+import { ToastAction } from "@/components/ui/toast"
+import { useToast } from "@/components/ui/use-toast"
+ 
+
 
 const mainApp = () => {
+
+  const { toast } = useToast();
+
   return (
-    <div>Main App here</div>
+    <>
+    <h2>Main App Content</h2>
+    </>
   )
 }
 
