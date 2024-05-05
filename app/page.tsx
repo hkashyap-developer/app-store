@@ -1,38 +1,47 @@
-"use client"
+
 
 import React from "react";
 import Header from "@/components/custom/header/header"
-import MainApp from "@/components/custom/mainApp/mainApp"
+
 import Footer from "@/components/custom/footer/footer"
 
+
+
 import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+
 
 
 export default function Home() {
   return (
     <>
       <Header />
-      <MainApp />
 
-      <Sheet>
-  <SheetTrigger>Open</SheetTrigger>
-  <SheetContent>
-    <SheetHeader>
-      <SheetTitle>Are you absolutely sure?</SheetTitle>
-      <SheetDescription>
-        This action cannot be undone. This will permanently delete your account
-        and remove your data from our servers.
-      </SheetDescription>
-    </SheetHeader>
-  </SheetContent>
-</Sheet>
+
+
+
+    <h1 className="text-4xl">ACCORDION</h1>
+
+    <Accordion type="single" collapsible>
+    <AccordionItem value="item-1">
+      <AccordionTrigger>Is it accessible?</AccordionTrigger>
+      <AccordionContent>
+        Yes. It adheres to the WAI-ARIA design pattern.
+      </AccordionContent>
+    </AccordionItem>
+    <AccordionItem value="item-2">
+      <AccordionTrigger>Is it accessible?</AccordionTrigger>
+      <AccordionContent>
+        Yes. It adheres to the WAI-ARIA design pattern.
+      </AccordionContent>
+    </AccordionItem>    
+  </Accordion>
+
 
 
       <Footer />      
