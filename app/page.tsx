@@ -1,21 +1,31 @@
 
 
 import React from "react";
+
 import Header from "@/components/custom/header/header"
+
+import Carousel from "@/components/custom/carousel/carousel";
+
+import BreadCrumb from "@/components/custom/breadcrumb/breadcrumb";
+import Accordion from "@/components/custom/accordion/accordion";
+import Buttons from "@/components/custom/buttons/buttons";
+import Calendar from "@/components/custom/calendar/calendar";
+import CalendarTwo from "@/components/custom/calendar/calendarTwo";
+import Checkbox from "@/components/custom/checkbox/checkbox"
+import Collapsible from "@/components/custom/collapsible/collapsible"
+import Combobox from "@/components/custom/combobox/combobox"
+import Command from "@/components/custom/command/command"
+import ContextMenu from "@/components/custom/context-menu/context-menu"
+
 
 import Footer from "@/components/custom/footer/footer"
 
-
-
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
+import { Badge } from "@/components/ui/badge"
+import { badgeVariants } from "@/components/ui/badge"
 
 
 
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -24,23 +34,67 @@ export default function Home() {
 
 
 
+      <div className="px-10">
 
-    <h1 className="text-4xl">ACCORDION</h1>
 
-    <Accordion type="single" collapsible>
-    <AccordionItem value="item-1">
-      <AccordionTrigger>Is it accessible?</AccordionTrigger>
-      <AccordionContent>
-        Yes. It adheres to the WAI-ARIA design pattern.
-      </AccordionContent>
-    </AccordionItem>
-    <AccordionItem value="item-2">
-      <AccordionTrigger>Is it accessible?</AccordionTrigger>
-      <AccordionContent>
-        Yes. It adheres to the WAI-ARIA design pattern.
-      </AccordionContent>
-    </AccordionItem>    
-  </Accordion>
+
+
+      <BreadCrumb />
+
+
+    <h1 className="text-4xl py-4 pb-10">
+      ShadCN With Next.js&nbsp; 
+      <Badge>Badge</Badge>
+      <Badge variant="outline">Badge</Badge>
+      <Link className={badgeVariants({ variant: "outline" })} href="/about">Badge</Link>
+      <Badge variant="destructive">Destructive</Badge>
+    </h1>
+
+    <Carousel />
+
+      <Accordion />
+      <Buttons />
+
+
+      <Calendar />
+      <CalendarTwo />
+
+
+      <div className="pb-10">
+        <Checkbox />
+      </div> 
+
+
+      <div className="pb-10">
+      <Collapsible />
+      </div>
+
+
+      <div className="pb-10">
+      <Combobox />
+      </div>
+
+
+      <div className="pb-10 max-w-80">
+      <Command />
+      </div>  
+
+
+      <div className="pb-10 max-w-80">
+      <ContextMenu />
+      </div>            
+
+
+
+
+
+      
+
+
+
+      </div>
+
+
 
 
 
