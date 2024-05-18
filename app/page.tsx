@@ -16,7 +16,14 @@ import Collapsible from "@/components/custom/collapsible/collapsible"
 import Combobox from "@/components/custom/combobox/combobox"
 import Command from "@/components/custom/command/command"
 import ContextMenu from "@/components/custom/context-menu/context-menu"
+import DataTable from "@/components/custom/data-table/data-table"
+import DatePicker from "@/components/custom/date-picker/date-picker"
+import Dialogue from "@/components/custom/dialogue/dialogue"
+import Drawer from "@/components/custom/drawer/drawer"
+import DropDownMenu from "@/components/custom/dropdown-menu/dropdown-menu"
+import Form from "@/components/custom/form/form"
 
+import Testing from "@/components/custom/test/test"
 
 import Footer from "@/components/custom/footer/footer"
 
@@ -81,14 +88,50 @@ export default function Home() {
 
 
       <div className="pb-10 max-w-80">
-      <ContextMenu />
+        <ContextMenu />
       </div>            
 
 
+      <div className="pb-10 max-w-2xl">
+        <DataTable />
+      </div>    
 
+
+
+      <div className="pb-10 max-w-2xl">
+        <DatePicker />
+      </div>          
+      
+
+      <div className="pb-10 max-w-2xl">
+        <Dialogue />
+      </div>       
+
+
+      <div className="pb-10 max-w-2xl">
+        <Drawer />
+      </div>       
+
+
+
+
+      <div className="pb-10 max-w-2xl  flex justify-center">
+        <DropDownMenu />
+      </div>       
+
+
+
+      <div className="pb-10 max-w-2xl  flex justify-center">
+        <Form />
+      </div>       
 
 
       
+      
+      <div className="pb-10 max-w-2xl flex justify-center">
+        <Testing />
+      </div>     
+
 
 
 
