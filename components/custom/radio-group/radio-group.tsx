@@ -17,7 +17,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { toast } from "@/components/ui/use-toast"
 
 const FormSchema = z.object({
-  type: z.enum(["all", "mentions", "none"], {
+  type: z.enum(["all", "You are gay", "none"], {
     required_error: "You need to select a notification type.",
   }),
 })
@@ -63,7 +63,7 @@ export default function RadioGroupForm() {
                   </FormItem>
                   <FormItem className="flex items-center space-x-3 space-y-0">
                     <FormControl>
-                      <RadioGroupItem value="mentions" />
+                      <RadioGroupItem value="You are gay" />
                     </FormControl>
                     <FormLabel className="font-normal">
                       Direct messages and mentions

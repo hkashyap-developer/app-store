@@ -41,6 +41,10 @@ import Popover from "@/components/custom/popover/popover"
 import Progress from "@/components/custom/progress/progress"
 
 import RadioGroup from "@/components/custom/radio-group/radio-group"
+import Resizable from "@/components/custom/resizable/resizable"
+
+import Scrollarea from "@/components/custom/scroll-area/scroll-area"
+import Select from "@/components/custom/select/select"
 
 
 import Footer from "@/components/custom/footer/footer"
@@ -117,7 +121,6 @@ export default function Home() {
       </div>    
 
 
-
       <div className="pb-10 max-w-2xl">
         <DatePicker />
       </div>          
@@ -140,7 +143,6 @@ export default function Home() {
       </div>       
 
 
-
       <div className="pb-10 max-w-2xl  flex justify-center">
         <Form />
       </div>       
@@ -150,8 +152,6 @@ export default function Home() {
         <HoverCard />
       </div>       
       
-      
-
 
       <div className="pb-10 max-w-2xl">
         <Input />
@@ -170,38 +170,22 @@ export default function Home() {
       <div className="pb-10 max-w-2xl">
         <Otp />
       </div>       
-      
-
-
-
-
+     
 
       <div className="pb-10 max-w-2xl">
         <LabelCustom />
       </div>       
       
 
-
-
-
-
       <div className="pb-10 max-w-2xl">
         <Menubar />
       </div>       
       
 
-      
-
-
-
       <div className="pb-80 max-w-2xl">
         <NavigationModule />
       </div>       
       
-
-      
-
-
 
       <div className="pb-10">
         <Pagination />
@@ -229,9 +213,25 @@ export default function Home() {
 
 
 
+      <div className="pb-10">
+        <Resizable />
+      </div>   
 
 
 
+      <div className="pb-10">
+        <Scrollarea />
+      </div>   
+
+
+      <div className="pb-10">
+        <Select />
+      </div>   
+
+
+
+
+      
 
       
 
