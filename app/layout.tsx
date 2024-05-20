@@ -5,6 +5,7 @@ import "./globals.css";
 
 import { ThemeProvider } from "@/components/theme-provider";
 
+import { Toaster } from "@/components/ui/Toaster";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -34,6 +35,7 @@ export default function RootLayout({
         </ThemeProvider>
         
         </body>
+        <Toaster />
     </html>
   );
 }

@@ -22,14 +22,34 @@ import Dialogue from "@/components/custom/dialogue/dialogue"
 import Drawer from "@/components/custom/drawer/drawer"
 import DropDownMenu from "@/components/custom/dropdown-menu/dropdown-menu"
 import Form from "@/components/custom/form/form"
+import HoverCard from "@/components/custom/hover-card/hover-card"
+import Input from "@/components/custom/input/input"
+import Otp from "@/components/custom/otp/otp"
+import LabelCustom from "@/components/custom/label/label"
+import Menubar from "@/components/custom/menubar/menubar"
 
 import Testing from "@/components/custom/test/test"
 
+
+
+import NavigationModule from "@/components/custom/navigation/navigation"
+import Pagination from "@/components/custom/pagination/pagination"
+
+import Popover from "@/components/custom/popover/popover"
+
+
+import Progress from "@/components/custom/progress/progress"
+
+import RadioGroup from "@/components/custom/radio-group/radio-group"
+
+
 import Footer from "@/components/custom/footer/footer"
+
+
+
 
 import { Badge } from "@/components/ui/badge"
 import { badgeVariants } from "@/components/ui/badge"
-
 
 
 import Link from 'next/link'
@@ -126,14 +146,94 @@ export default function Home() {
       </div>       
 
 
+      <div className="pb-10 max-w-2xl  flex justify-center">
+        <HoverCard />
+      </div>       
       
       
-      <div className="pb-10 max-w-2xl flex justify-center">
+
+
+      <div className="pb-10 max-w-2xl">
+        <Input />
+      </div>       
+
+      
+
+      <div className="pb-10 max-w-2xl">
         <Testing />
       </div>     
 
 
 
+
+
+      <div className="pb-10 max-w-2xl">
+        <Otp />
+      </div>       
+      
+
+
+
+
+
+      <div className="pb-10 max-w-2xl">
+        <LabelCustom />
+      </div>       
+      
+
+
+
+
+
+      <div className="pb-10 max-w-2xl">
+        <Menubar />
+      </div>       
+      
+
+      
+
+
+
+      <div className="pb-80 max-w-2xl">
+        <NavigationModule />
+      </div>       
+      
+
+      
+
+
+
+      <div className="pb-10">
+        <Pagination />
+      </div>       
+      
+
+      
+      
+
+
+      <div className="pb-10">
+        <Popover />
+      </div>       
+      
+
+      <div className="pb-10">
+        <Progress />
+      </div>   
+
+
+
+      <div className="pb-10">
+        <RadioGroup />
+      </div>   
+
+
+
+
+
+
+
+      
 
       </div>
 
