@@ -50,6 +50,10 @@ import Select from "@/components/custom/select/select"
 
 import Seperator from "@/components/custom/separator/separator"
 
+import Sheet from "@/components/custom/sheet/sheet"
+
+import Skeleton from "@/components/custom/skeleton/skeleton"
+
 
 import Footer from "@/components/custom/footer/footer"
 
@@ -240,10 +244,19 @@ export default function Home() {
 
 
 
+      <div className="pb-10 max-w-xl">
+        <Sheet />
+      </div>   
+      
+      <div className="pb-10 max-w-xl">
+        <Skeleton />
+      </div>   
+      
+      
+
 
       
 
-      
 
       </div>
 
