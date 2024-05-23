@@ -47,6 +47,10 @@ import Scrollarea from "@/components/custom/scroll-area/scroll-area"
 import Select from "@/components/custom/select/select"
 
 
+
+import Seperator from "@/components/custom/separator/separator"
+
+
 import Footer from "@/components/custom/footer/footer"
 
 
@@ -224,8 +228,14 @@ export default function Home() {
       </div>   
 
 
-      <div className="pb-10">
+      <div className="pb-10 max-w-xl">
         <Select />
+      </div>   
+
+
+
+      <div className="pb-10 max-w-xl">
+        <Seperator />
       </div>   
 
 
