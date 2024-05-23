@@ -3,9 +3,7 @@
 import React from "react";
 
 import Header from "@/components/custom/header/header"
-
 import Carousel from "@/components/custom/carousel/carousel";
-
 import BreadCrumb from "@/components/custom/breadcrumb/breadcrumb";
 import Accordion from "@/components/custom/accordion/accordion";
 import Buttons from "@/components/custom/buttons/buttons";
@@ -27,32 +25,29 @@ import Input from "@/components/custom/input/input"
 import Otp from "@/components/custom/otp/otp"
 import LabelCustom from "@/components/custom/label/label"
 import Menubar from "@/components/custom/menubar/menubar"
-
 import Testing from "@/components/custom/test/test"
-
-
-
 import NavigationModule from "@/components/custom/navigation/navigation"
 import Pagination from "@/components/custom/pagination/pagination"
-
 import Popover from "@/components/custom/popover/popover"
-
-
 import Progress from "@/components/custom/progress/progress"
-
 import RadioGroup from "@/components/custom/radio-group/radio-group"
 import Resizable from "@/components/custom/resizable/resizable"
-
 import Scrollarea from "@/components/custom/scroll-area/scroll-area"
 import Select from "@/components/custom/select/select"
-
-
-
 import Seperator from "@/components/custom/separator/separator"
-
 import Sheet from "@/components/custom/sheet/sheet"
-
 import Skeleton from "@/components/custom/skeleton/skeleton"
+import Slider from "@/components/custom/slider/slider"
+import Sonner from "@/components/custom/sonner/sonner"
+import Switch from "@/components/custom/switch/switch"
+import Table from "@/components/custom/table/table"
+import Tabs from "@/components/custom/tabs/tabs"
+
+
+
+
+
+
 
 
 import Footer from "@/components/custom/footer/footer"
@@ -253,9 +248,37 @@ export default function Home() {
       </div>   
       
       
+      
+      <div className="pb-10 max-w-xl">
+        <Slider />
+      </div>   
+      
+      
+
+      <div className="pb-10 max-w-xl">
+        <Sonner />
+      </div>   
+      
 
 
       
+      <div className="pb-10 max-w-xl">
+        <Switch />
+      </div>   
+      
+
+      <div className="pb-10 max-w-xl">
+        <Table />
+      </div>   
+      
+
+
+      <div className="pb-10 max-w-xl">
+        <Tabs />
+      </div>   
+      
+
+
 
 
       </div>
