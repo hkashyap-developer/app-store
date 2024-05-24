@@ -42,7 +42,17 @@ import Sonner from "@/components/custom/sonner/sonner"
 import Switch from "@/components/custom/switch/switch"
 import Table from "@/components/custom/table/table"
 import Tabs from "@/components/custom/tabs/tabs"
+import Textarea from "@/components/custom/textarea/textarea"
+import Toast from "@/components/custom/toast/toast"
 
+
+import Toggle from "@/components/custom/toggle/toggle"
+
+import ToggleGroup from "@/components/custom/toggle-group/toggle-group"
+
+
+
+import Tooltip from "@/components/custom/tooltip/tooltip"
 
 
 
@@ -276,8 +286,41 @@ export default function Home() {
       <div className="pb-10 max-w-xl">
         <Tabs />
       </div>   
+
+
+
+      <div className="pb-10 max-w-xl">
+        <Textarea />
+      </div>        
+
+      <div className="pb-10 max-w-xl">
+        <Toast />
+      </div>        
+
+
+
+      <div className="pb-10 max-w-xl">
+        <Toggle />
+      </div>      
+
+
+
+
+      <div className="pb-10 max-w-xl">
+        <ToggleGroup />
+      </div>              
+
+
+
+
       
 
+      <div className="pb-10 max-w-xl">
+        <Tooltip />
+      </div>        
+
+
+      
 
 
 
